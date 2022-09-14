@@ -1,25 +1,3 @@
-Task 8.txt
-Who has access
-A
-System properties
-Type
-Text
-Size
-662 bytes
-Storage used
-662 bytes
-Location
-0x02. C - Functions, nested loops
-Owner
-Antony Bahati
-Modified
-Sep 13, 2022 by Antony Bahati
-Opened
-8:30 PM by me
-Created
-Sep 13, 2022
-No description
-Viewers can download
 #include "main.h"
 /**
  * jack_bauer - func that prints every minute of the day of Jack Bauer, starti
