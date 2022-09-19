@@ -1,1 +1,1 @@
-Write a function that convert a string to an integer.
+Create a program that generates random valid passwords for the program 101-crackme.
