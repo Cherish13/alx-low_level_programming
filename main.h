@@ -1,19 +1,24 @@
-#ifndef MAIN_H
-#define MAIN_H
-
+#include "main.h"
 #include <stdio.h>
-void reset_to_98(int *n);
-void swap_int(int *a, int *b);
-int _strlen(char *str);
-void _puts(char *str);
-void print_rev(char *s);
-void rev_string(char *s);
-void puts2(char *str);
-void puts_half(char *str);
-void print_array(int *a, int n);
-char *_strcpy(char *dest, char *src);
-int _atoi(char *s);
-int _putchar(char c);
 
-#endif
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char s1[98] = "Hello ";
+    char s2[] = "World!\n";
+    char *ptr;
+
+    printf("%s\n", s1);
+    printf("%s", s2);
+    ptr = _strcat(s1, s2);
+    printf("%s", s1);
+    printf("%s", s2);
+    printf("%s", ptr);
+    return (0);
+}
+
                 
