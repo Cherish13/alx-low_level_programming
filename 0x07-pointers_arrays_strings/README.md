@@ -1,1 +1,1 @@
-Write a function that locates a substring.
+Write a function that prints the chessboard.
