@@ -1,1 +1,1 @@
- He who is not courageous enough to take risks will accomplish nothing in life
+Write a function that returns a pointer to a 2 dimensional array of integers.
