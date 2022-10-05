@@ -1,1 +1,1 @@
-Write a function that prints a string, followed by a new line.
+Create the static library libmy.a containing all the functions listed below:
