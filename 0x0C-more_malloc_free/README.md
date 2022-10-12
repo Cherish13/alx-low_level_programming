@@ -1,1 +1,1 @@
-Write a function that creates an array of integers.
+Write a function that reallocates a memory block using malloc and free
