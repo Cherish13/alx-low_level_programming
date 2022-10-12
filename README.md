@@ -1,1 +1,1 @@
-Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+Create a header file that defines a macro named SIZE as an abbreviation for the token 1024.
