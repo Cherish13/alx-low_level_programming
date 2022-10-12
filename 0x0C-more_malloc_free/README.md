@@ -1,1 +1,2 @@
-Write a function that reallocates a memory block using malloc and free
+Write a program that multiplies two positive numbers.
+
