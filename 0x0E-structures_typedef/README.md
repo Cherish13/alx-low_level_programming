@@ -1,1 +1,1 @@
-Write a function that creates a new dog.
+Write a function that frees dogs.
