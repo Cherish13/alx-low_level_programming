@@ -1,1 +1,3 @@
-Write a function that frees a listint_t list.
+Write a function that finds the loop in a linked list.
+
+
