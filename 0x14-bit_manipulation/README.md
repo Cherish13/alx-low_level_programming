@@ -1,1 +1,1 @@
-Write a function that checks the endianness.
+Find the password for this program.
