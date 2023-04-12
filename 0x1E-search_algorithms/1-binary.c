@@ -14,20 +14,21 @@ int binary_search(int *array, size_t size, int value)
        	{
 		int middle = (left + right) / 2;
 		
-		printf("Searching subarray: ");
+		printf("Searching in array: ");
 		for (int i = left; i <= right; i++)
 			printf("%i%s", array[i], i == right ? "\n" : ", ");
 
-		if (array[middle] == value)
+		if (array[middle] < value)
 	       	{
-			return middle;
-		}
-		else if (array[middle] > value) {
-			right = middle - 1;
-		}
-		else {
 			left = middle + 1;
 		}
+		else if (array[middle] > value)
+	       	{
+			right = middle - 1;
+		}
+		else 
+		         return (middle);
+		
 	}
 	return (-1);
 }
