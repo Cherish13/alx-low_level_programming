@@ -17,17 +17,17 @@ int linear_search(int *array, size_t size, int value)
 
 	if (array == NULL)
        	{
-		return -1;
+		return (-1);
 	}
 
-	for (int i = 0; i < size; i++)
+	for (i = 0; i < size; i++)
        	{
 		printf("Comparing %d to %d\n", array[i], value);
 		if (array[i] == value)
 	       	{
-			return i;
+			return (i);
 		}
 	}
-	return -1;
+	return (-1);
 }
 
